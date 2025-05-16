@@ -1,7 +1,13 @@
 module day4
 
+import LinearAlgebra
+import Random # 新しく追記
+
 greet() = print("Hello World")
 
-import Revise
+function mydot(x, y)
+    return LinearAlgebra.dot(x, y)
+end
 
-end # module day4git
+
+end # module day4
